@@ -6,5 +6,5 @@ docker rmi -f $(docker images -q)
 docker system prune -a
 git clone https://github.com/anitalluri00/Streamlit-EDA-App.git
 cd Streamlit-EDA-App
-docker build -t eda-app .
-docker run -p 8501:8501 eda-app
+docker build -t eda-ml-app .
+docker run -p 8501:8501 eda-ml-app
